@@ -1,0 +1,323 @@
+.numbers{
+  background-color: rgb(204, 68, 68);
+
+  height: 150px;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.numbers .row{
+ padding: 50px 0px;
+}
+.numbers h2{
+  font-size: 30px;
+  font-weight: bold;
+
+color: white;
+}
+.numbers h6{
+  text-transform: uppercase;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pride{
+  background-color: transparent;
+width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.pride .row{
+  padding: 50px 0px;
+  text-align: left;
+
+display: flex;
+}
+.pride .row h2
+{
+  margin-top: 70px;
+  color: rgb(48, 47, 47) !important;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.pride .row h4 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  width: 100%;
+letter-spacing: 1px;
+font-size: 0.8rem;
+font-weight: bold;
+width: 80%;
+text-transform: capitalize;
+color: rgb(48, 50, 51);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pride .row img{
+
+  width: 80%;
+  height: 60%;
+  margin-top: 60px;
+
+}
+.pride .row .pride-btn{
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(168, 39, 39);
+  color: rgb(255, 255, 255);
+
+  cursor: pointer;
+  transition: 0.7s;
+  font-size: 20px;
+
+  text-align: center;
+}
+.pride .row .pride-btn:hover{
+  background-color: rgb(221, 204, 204);
+  transform: scale(1.1);
+  color: rgb(114, 109, 109);
+}
+.list {
+  background-color:transparent;
+  width: 100%;
+    height: auto;
+    max-width: 100%;
+
+    overflow: hidden;
+}
+.list .row{
+  padding: 50px 0px;
+
+display: flex;
+}
+.list .row .img1{
+  height: auto;
+width: 80%;
+text-align: right !important;
+background-color: transparent;
+
+}
+.list .row .img1 .ph2{
+text-align: right;
+width: 50%;
+height: 200px;
+
+margin: 1px;
+padding: 1px;
+
+}
+.list .row .img1 .ph1{
+  text-align: right;
+  width: 30%;
+  height: 150px ;
+  margin-top: 50px;
+ margin-right: 1px;
+
+}
+.list .row .img1 .ph3{
+  width: 250px !important;
+  height: 300px;
+margin-right: 1px;
+  }
+  .list .row .img1 .ph4{
+    width: 150px !important;
+    height: 200px;
+    margin: 1px;
+    padding: 1px;
+    margin-bottom: 102px;
+    }
+    .list .row{
+      padding: 50px 0px;
+  text-align: left;
+
+display: flex;
+    }
+
+.list .row h2{
+  margin-top: 70px;
+  color: rgb(139, 42, 42) !important;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.list .row h6{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  width: 100%;
+letter-spacing: 1px;
+font-size: 0.8rem;
+font-weight: bold;
+width: 80%;
+text-transform: capitalize;
+color: rgb(0, 0, 0);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list .row ul{
+  list-style-type: square;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  width: 100%;
+letter-spacing: 1px;
+font-size: 0.8rem;
+font-weight: bold;
+width: 80%;
+text-transform: capitalize;
+color: rgb(0, 0, 0);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.list .row button{
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(168, 39, 39);
+  color: rgb(255, 255, 255);
+  margin: 15px 20px;
+  cursor: pointer;
+  transition: 0.7s;
+  font-size: 20px;
+
+  text-align: center;
+}
+
+.list .row button:hover {
+  background-color: rgb(221, 204, 204);
+  transform: scale(1.1);
+  color:  rgb(48, 50, 51);;
+}
+.sok {
+  background: url('./../../assets/6.jpg') center no-repeat lightblue;
+
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  height: 600px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0px;
+}
+.sok .row{
+  padding: 50px 0px;
+
+  display: flex;
+}
+.sok .row h2{
+  margin-top: 70px;
+  color: rgb(0, 0, 0) !important;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.sok .row h6{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  width: 90%;
+letter-spacing: 1px;
+font-size: 0.8rem;
+font-weight: bold;
+
+text-transform: capitalize;
+color: rgb(53, 48, 48);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sok .row h5 {
+
+padding-top: 50px;
+
+width: 70px;
+letter-spacing: 1px;
+font-size: 0.8rem;
+font-weight: bold;
+height: auto;
+text-transform: capitalize;
+color: rgb(53, 49, 49);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sok .row a{
+  text-decoration: none;
+  color: rgb(68, 63, 63);
+
+}
+.plog{
+ overflow: hidden;
+ width: 100%;
+ height: auto;
+ padding: 25px 0;
+ margin-top: 50px;
+
+}
+.plog .row{
+  padding: 50px 0px;
+
+  display: flex;
+}
+.plog .row .first-child{
+  margin-top: 70px;
+  color: rgb(201, 23, 23) !important;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.plog .row h6{
+  padding-top: 25px;
+  padding-bottom: 10px;
+  width: 90%;
+letter-spacing: 1px;
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+
+text-transform: capitalize;
+color: rgb(53, 48, 48);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.plog img{
+
+  width: 100%;
+  max-width: 100%;
+  height: 175px;
+
+}
+.plog span{
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 400;
+
+}
+.plog .box{
+  border: 1px solid rgba(0, 0, 0, 0.116);
+  width: 100%;
+  height: auto;
+  margin-top:10px ;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 5px;
+
+}
+.plog .order-btn{
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(168, 39, 39);
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.7s;
+  font-size: 20px;
+
+
+}
+
+.plog .order-btn:hover {
+  background-color: rgb(221, 204, 204);
+  transform: scale(1.1);
+  color:  rgb(48, 50, 51);;
+}

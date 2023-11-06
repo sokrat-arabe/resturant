@@ -1,0 +1,55 @@
+header {
+  background: url('./../../assets/rest.jpg') center no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: left;
+  height: 400px;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0px;
+}
+header .row{
+  margin:5px 0;
+}
+
+header h2 {
+  color: rgb(168, 39, 39);
+  font-size: 55px;
+  line-height: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 85%;
+}
+
+header p {
+  color: #333;
+  font-size: 18px;
+  margin: 15px 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header button {
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(168, 39, 39);
+  color: rgb(255, 255, 255);
+  margin: 15px 20px;
+  cursor: pointer;
+  transition: 0.7s;
+  font-size: 20px;
+
+  text-align: center;
+}
+
+header button:hover {
+  background-color: rgb(221, 204, 204);
+  transform: scale(1.1);
+}
+.last-btn{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.last-btn:hover{
+  background-color: rgb(168, 39, 39) !important;
+}
